@@ -67,28 +67,28 @@ then we add getter to that property in the implementation file
 - (UIActivityIndicatorView *)activityIndicatorView
 {
     UIActivityIndicatorView *activityIndicatorView = objc_getAssociatedObject(self, @selector(activityIndicatorView));
-    
+
     if (!activityIndicatorView) {
-        
+
         CGSize loadingSize = CGSizeMake(20, 20);
         CGFloat activityIndicatorOriginX = self.frame.size.width/2 - loadingSize.width/2;
         CGFloat activityIndicatorOriginY = self.frame.size.height/2 - loadingSize.height/2;
-        
+
         activityIndicatorView = [[UIActivityIndicatorView alloc]initWithFrame:
                                  CGRectMake(activityIndicatorOriginX,
                                             activityIndicatorOriginY,
                                             loadingSize.width,
                                             loadingSize.height)];
-        
+
         [activityIndicatorView setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleGray];
         [self addSubview:activityIndicatorView];
-        
+
     }
-    
+
     // default is stop the animation
     [activityIndicatorView stopAnimating];
     [self setActivityIndicatorView:activityIndicatorView];
-    
+
     return activityIndicatorView;
 }
 ```
