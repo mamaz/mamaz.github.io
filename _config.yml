@@ -1,6 +1,6 @@
 
 # Site settings
-title: Mamaz on tech stuffs and software development
+title: Hacks, Tricks, and Discovery
 email: hisma.mulya@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I occasionally write about what I found interesting. Enjoy!
@@ -17,3 +17,6 @@ markdown: kramdown
 
 #permalinks
 permalink: none
+
+#syntax-highlighting
+highlighter: pygments

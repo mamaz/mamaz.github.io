@@ -7,7 +7,7 @@ As iOS developer we often do some synchronous process and use a loading indicato
 
 But somewhat we just want a simple UIActivityIndicatorView to show that process. Normally we add it by using this simple code:
 
-```objective-c
+{% highlight  objective-c %}
 UIView *superview = self.view;
 
 CGFloat activityIndicatorHeight = 20.0;
@@ -22,20 +22,21 @@ act.frame = (CGRect){originX,originY,activityIndicatorWidth,activityIndicatorHei
 [self.view addSubview:act];
 
 [act startAnimating];
-```
+{% endhighlight %}
 
 Phew, for showing a simple UIActivityIndicatorView on the center of the screen we need at least this much of code. Imagine if we want to add it to a dozens of cells on a UICollectionView. Or even on a different view on different view controller. Soon your view controllers or custom views become so big and not easy to maintain.
 
 Now, with several steps that I will show you we can show a simple UIActivityIndicatorView by just this much cleaner command:
 
-```objective-c
+{% highlight  objective-c %}
 [superview.activityIndicatorView startAnimating];
-```
+{% endhighlight %}
+
 and hide it using this command:
 
-```objective-c
+{% highlight  objective-c %}
 [superview.activityIndicatorView stopAnimating];
-```
+{% endhighlight %}
 
 Much simple yeah? So how do we do that? We will use these 2 Objective C features:
 
@@ -46,7 +47,7 @@ We use category for placing our activity indicator initialization so that we hav
 
 First, we create a UIView category named UIView+ActivityIndicator and add a property in its header.
 
-```objective-c
+{% highlight  objective-c %}
 #import <UIKit/UIKit.h>
 
 @interface UIView (ActivityIndicator)
@@ -54,16 +55,17 @@ First, we create a UIView category named UIView+ActivityIndicator and add a prop
 @property(nonatomic, strong) UIActivityIndicatorView *activityIndicatorView;
 
 @end
-```
+{% endhighlight %}
+
 Since we use runtime library of Objective C, we need to import it beforehand
 
-```objective-c
+{% highlight  objective-c %}
 #import <objc/runtime.h>
-```
+{% endhighlight %}
 
 then we add getter to that property in the implementation file
 
-```objective-c
+{% highlight  objective-c %}
 - (UIActivityIndicatorView *)activityIndicatorView
 {
     UIActivityIndicatorView *activityIndicatorView = objc_getAssociatedObject(self, @selector(activityIndicatorView));
@@ -91,7 +93,7 @@ then we add getter to that property in the implementation file
 
     return activityIndicatorView;
 }
-```
+{% endhighlight %}
 
 the getter will create a new default object of UIActivityIndicatorView, if there's none, before adding it to the view.
 

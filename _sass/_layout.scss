@@ -11,7 +11,7 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
@@ -205,7 +205,7 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -216,6 +216,9 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    p{
+        font-size: 18px;
+    }
 
     h2 {
         font-size: 32px;
