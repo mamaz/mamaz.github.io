@@ -1,18 +1,15 @@
-# How to Debug Effectively
-
 This is what I found the most effective way to debug.
-Read the description of the bug carefully. Write the tasks needed, on a piece of paper.
 
-### Then:
-
-0. Sit down in a sofa.
-1. Go to nearest food stall or restaurant.
-2. Treat yourself some good meals and nice coffee.
-3. Enjoy the view of your office and relax.
-4. Start gathering the logs and info needed from **ANY** source.
-5. Start exploring the logs or profiling.
-6. Find the damn root cause. If not found go back to 4.
-7. Fix them once and for all.
+1. Read the description of the bug carefully. 
+2. Write the tasks needed, on a piece of paper.
+3. Go to nearest food stall or restaurant.
+4. Treat yourself some good meals and nice coffee.
+5. Enjoy the view of your office and relax.
+6. Sit down in a sofa.
+7. Start gathering the logs and info needed from **ANY** source.
+8. Start exploring the logs or profiling.
+9. Find the damn root cause. If not found go back to 4.
+10. Fix them once and for all.
 
 Any other methods? Let me know.
 
