@@ -1,3 +1,8 @@
+---
+layout: post
+title: Effective Debugging
+---
+
 This is what I found the most effective way to debug.
 
 1. Read the description of the bug carefully.
