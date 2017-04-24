@@ -1,6 +1,6 @@
 This is what I found the most effective way to debug.
 
-1. Read the description of the bug carefully. 
+1. Read the description of the bug carefully.
 2. Write the tasks needed, on a piece of paper.
 3. Go to nearest food stall or restaurant.
 4. Treat yourself some good meals and nice coffee.
