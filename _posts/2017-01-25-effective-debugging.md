@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Effective Debugging
+comments: true
 ---
 
 This is what I found the most effective way to debug.

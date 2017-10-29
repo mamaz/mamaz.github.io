@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Benchmarking Node.js Http Performance Part 1 Express.js
+comments: true
 ---
 
 ## Overview

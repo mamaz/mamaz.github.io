@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Adding UIActivityIndicatorView the Smart Way
+comments: true
 ---
 
 As iOS developer we often do some synchronous process and use a loading indicator to a view to tell user that loading is in progress. There are some faboulous libraries out there to show a loading is in progress, like [SVProgressHUD][SV] and [MBProgressHUD][MB].

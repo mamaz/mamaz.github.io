@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Increment Your Version Number and Make a Build
+comments: true
 ---
-
 
 I am a fan of [semantic versioning][SV]. And in all of the projects here at [Ice House][ICE] we enforce to do it so that we can make sure which build is the right build to be tested and shipped to the App Store.
 

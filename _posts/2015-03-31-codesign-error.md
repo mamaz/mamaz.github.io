@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Strange issue with XCode 6.2 
+title: Strange issue with XCode 6.2
+comments: true
 ---
 
 Today I've found strange issue with XCode 6.2 as it won't run on device, event though the prov. profile and Certificates matches.

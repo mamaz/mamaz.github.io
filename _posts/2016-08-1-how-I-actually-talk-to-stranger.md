@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Communication Hack
+comments: true
 ---
 
 How I actually talk to strangers. Seriously.

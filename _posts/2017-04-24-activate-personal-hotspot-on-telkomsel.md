@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Activate Personal Hotspot on Telkomsel
+comments: true
 ---
 
 I did these steps below to activate personal hotspot on iPhone 7 on iOS 10.3.1. I use Telkomsel network.

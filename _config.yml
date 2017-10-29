@@ -13,7 +13,7 @@ future: true
 gems:
     - jekyll-sitemap
     - jekyll-seo-tag
-
+disqus_shortname: mamazblog
 # Build settings
 
 #permalinks

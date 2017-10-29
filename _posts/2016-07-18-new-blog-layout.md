@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New blog layout
+comments: true
 ---
 
 Today I changed my blog layout to a basic Jekyll 3.0 theme.
