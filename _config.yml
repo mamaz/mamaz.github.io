@@ -23,4 +23,6 @@ permalink: none
 highlighter: rouge
 markdown: kramdown
 
-theme: jekyll-theme-minimal
+
+#analytics
+google_analytics: true
