@@ -22,3 +22,5 @@ permalink: none
 #syntax-highlighting
 highlighter: rouge
 markdown: kramdown
+
+theme: jekyll-theme-minimal
