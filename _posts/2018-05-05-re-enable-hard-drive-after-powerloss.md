@@ -1,11 +1,11 @@
 ---
 layout: post
-title: How to Re-enable Your Hard Drive When Suddenly You Have Powerloss
+title: How to Re-enable Your Hard Drive When Suddenly You Have Powerloss on Mac OSX
 comments: true
 ---
 
-If you accidentally have a power loss when you are still using your external hard drive, copying somthing and
-the drive can't be detected when you're Mac is back on.
+If you accidentally have a power loss when you are still using your external hard drive, and
+the drive can't be detected when your Mac is back on.
 
 First you can can hit Cmd + Space and type **Disk Utility** and choose it.
 
